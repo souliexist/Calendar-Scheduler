@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental Staff Calendar</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- Staff Sidebar -->
+    <aside class="sidebar">
+
+        <h2>Staff</h2>
+
+        <div id="staffList"></div>
+
+        <button id="addStaffBtn">
+            + Add Staff
+        </button>
+
+    </aside>
+
+
+    <!-- Calendar Area -->
+    <main class="calendar-container">
+
+
+        <div class="calendar-controls">
+
+            <button id="prevMonth">
+                ◀
+            </button>
+
+
+            <select id="monthSelect"></select>
+
+            <select id="yearSelect"></select>
+
+
+            <button id="nextMonth">
+                ▶
+            </button>
+
+        </div>
+
+
+
+        <div class="calendar" id="calendar">
+
+        </div>
+
+
+    </main>
+
+
+</div>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
